@@ -1,5 +1,5 @@
 /* ==========================================================================
-   H5P Suite - Documentação de Plugin (JS Functionality)
+   H5P Companion - Documentação de Plugin (JS Functionality)
    Theme Toggle & Interactivity
    ========================================================================== */
 
@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function initThemeToggle() {
-    const STORAGE_KEY = 'h5p-suite-theme';
+    const STORAGE_KEY = 'h5p-companion-theme';
     const htmlElement = document.documentElement;
     const themeToggleBtn = document.getElementById('theme-toggle');
 
